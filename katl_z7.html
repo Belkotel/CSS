@@ -1,12 +1,36 @@
 <html lang="pl-PL">
 	<head>
 		<META HTTP-EQUIV="content-type" CONTENT="text/html"; CHARSET="utf-8">
+            <style>
+                .teoria {
+                    width: 85%;
+                    height: 30px;
+                    resize: none;
+                }
+                .teoria2 {
+                    width: 65%;
+                    height: 30px;
+                    resize: none;
+                }
+            </style>
 	</head>
     <body>
         <h1>1. Na co pozwala styl lokalny, który element będzie formatowany z użyciem stylu lokalnego?</h1>
         <p>Styl lokalny pozwala na nadanie formatowania konkretnemu pojedynczemu elementowi<br>
         strony. Jest wstawiany w tej samej linii, w której znajduje się element formatowany.<br>  
         O tym, który to będzie element, decyduje słowo kluczowe "selektor".</p>
-        <h1>2. Składnia teoretyczna</h1>
+        <h1>2. Składnia teoretyczna:</h1>
+        <textarea class="teoria"><selektor style="cecha1: wartość1; cecha2: wartość2...">...</selektor></textarea>
+        <p>lub inaczej</p>
+        <textarea class="teoria2"><selektor style="nasze style">treść bloku</selektor></textarea>
+        <h1>3. Co może być selektorem?</h1>
+        <p>Selektorem może być praktycznie dowolny znacznik, np. p (akapit), h1 (nagłówek), td <br>
+        (komórka tabeli) i inne.</p>
+        <h1>4. Co wipisujemy jako "cechę". Jakie jest znaczenie średników?</h1>
+        <p>Jako "cecha" czy inaczej własność bądź właściwość należy wpisać o jakie <br>
+        konkretnie atrybuty formatowania nam chodzi (np. kolor tekstu - color).</p>
+        <h1>5. Co wipisujemy jako "wartość" (w deklaracji stylu)?</h1>
+        <p>Jako wyraz "wartość" (w deklaracji stylu) wpisujemy dokładną wartość atrybutu (np. dla <br>
+        koloru tekstu będzie to: red, blue czy też #31F4A5 itd.).</p>
     </body>
 </html>
