@@ -1,0 +1,30 @@
+#pogrubienie_katlo {
+    font-size: 30px;
+    color: rgb(133, 96, 206);
+}
+
+#pochylona_katlo {
+    font-size: 35pt;
+    color: rgb(233, 196, 106);
+}
+#index_gorny_katlo {
+    font-size: 1cm;
+    color: rgb(153, 146, 26);
+}
+
+#index_dolny_katlo {
+    font-size: 1.5cm;
+    color: rgb(12%, 46%, 42%);
+}
+
+#mono_katlo {
+    font-size: 40px;
+    color: rgb(25, 226, 106);
+}
+
+#powiekszenie_katlo {
+    color: rgb(83, 66, 156);
+}
+#pomniejszenie_katlo {
+    color: rgb(50%, 37%, 13%);
+}
