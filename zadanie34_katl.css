@@ -1,0 +1,36 @@
+h3 {
+color: rgb(2, 2, 1);
+}
+/* blok górny */
+#blok-gorny {
+width: 400pt;
+height: 4cm;
+background-color: #FF0000;
+border-top: 2px ridge #000000;
+border-bottom: 2px ridge  #FFFF00;
+border-left: 4px ridge #800080;
+border-right: 4px ridge #FF0000;
+margin: auto;
+padding-left: 10px;
+}
+/* blok środkowy */
+#blok-srodkowy {
+width: 300pt;
+height: 2cm;
+background: #B22222;
+border: 3px double #C0C0C0;
+margin-left: 16%;
+margin-top: 5%;
+text-align: center;
+}
+/* blok dolny */
+#blok-dolny {
+width: 200pt;
+height: 3cm;
+background: #8B0000;
+border: 10px double #800000;
+margin-left: 40%;
+font-size: 12px;
+margin-top: 5%;
+}
+/*Aliaksei Katlo 2K gr1*/
